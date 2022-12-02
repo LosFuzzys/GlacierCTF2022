@@ -1,0 +1,344 @@
+ffmpeg version n5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12.2.0 (GCC)
+ffmpeg version n5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12.2.0 (GCC)
+  configuration: --prefix=/usr --disable-debug --disable-static --disable-stripping --enable-amf --enable-avisynth --enable-cuda-llvm --enable-lto --enable-fontconfig --enable-gmp --enable-gnutls --enable-gpl --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libdav1d --enable-libdrm --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libiec61883 --enable-libjack --enable-libmfx --enable-libmodplug --enable-libmp3lame --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librav1e --enable-librsvg --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxcb --enable-libxml2 --enable-libxvid --enable-libzimg --enable-nvdec --enable-nvenc --enable-opencl --enable-opengl --enable-shared --enable-version3 --enable-vulkan
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+  configuration: --prefix=/usr --disable-debug --disable-static --disable-stripping --enable-amf --enable-avisynth --enable-cuda-llvm --enable-lto --enable-fontconfig --enable-gmp --enable-gnutls --enable-gpl --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libdav1d --enable-libdrm --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libiec61883 --enable-libjack --enable-libmfx --enable-libmodplug --enable-libmp3lame --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librav1e --enable-librsvg --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxcb --enable-libxml2 --enable-libxvid --enable-libzimg --enable-nvdec --enable-nvenc --enable-opencl --enable-opengl --enable-shared --enable-version3 --enable-vulkan
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[libvpx @ 0x564d96c2d300] v1.12.0
+[libvpx @ 0x564d96c2d300] v1.12.0
+Input #0, ivf, from 'vid.ivf':
+  Duration: 00:00:04.90, start: 0.000000, bitrate: 1864 kb/s
+Input #0, ivf, from 'vid.ivf':
+  Duration: 00:00:04.90, start: 0.000000, bitrate: 1864 kb/s
+  Stream #0:0: Video: vp8 (VP80 / 0x30385056), yuv420p(tv, progressive), 360x360, 29.80 tbr, 29.80 tbn
+  Stream #0:0: Video: vp8 (VP80 / 0x30385056), yuv420p(tv, progressive), 360x360, 29.80 tbr, 29.80 tbn
+[libvpx @ 0x564d96c33e40] v1.12.0
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp8 (libvpx) -> png (native))
+Press [q] to stop, [?] for help
+[libvpx @ 0x564d96c33e40] v1.12.0
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp8 (libvpx) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'decode-%03d.png':
+  Metadata:
+    encoder         : Output #0, image2, to 'decode-%03d.png':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 360x360, q=2-31, 200 kb/s, 29.80 fps, 29.80 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 png
+Lavf59.27.100
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 360x360, q=2-31, 200 kb/s, 29.80 fps, 29.80 tbn
+    Metadata:
+      encoder         : Lavc59.37.100 png
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=N/A    frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=N/A    [libvpx @ 0x564d96c33e40] dimension change! 360x360 -> 360x352
+[libvpx @ 0x564d96c33e40] dimension change! 360x360 -> 360x352
+[libvpx @ 0x564d96c33e40] dimension change! 360x352 -> 360x328
+[libvpx @ 0x564d96c33e40] dimension change! 360x352 -> 360x328
+[libvpx @ 0x564d96c33e40] dimension change! 360x328 -> 257x290
+[libvpx @ 0x564d96c33e40] dimension change! 360x328 -> 257x290
+[libvpx @ 0x564d96c33e40] dimension change! 257x290 -> 257x239
+[libvpx @ 0x564d96c33e40] dimension change! 257x290 -> 257x239
+[libvpx @ 0x564d96c33e40] dimension change! 257x239 -> 257x177
+[libvpx @ 0x564d96c33e40] dimension change! 257x239 -> 257x177
+[libvpx @ 0x564d96c33e40] dimension change! 257x177 -> 252x108
+[libvpx @ 0x564d96c33e40] dimension change! 257x177 -> 252x108
+[libvpx @ 0x564d96c33e40] dimension change! 252x108 -> 252x34
+[libvpx @ 0x564d96c33e40] dimension change! 252x108 -> 252x34
+[libvpx @ 0x564d96c33e40] dimension change! 252x34 -> 252x41
+[libvpx @ 0x564d96c33e40] dimension change! 252x34 -> 252x41
+[libvpx @ 0x564d96c33e40] dimension change! 252x41 -> 263x115
+[libvpx @ 0x564d96c33e40] dimension change! 252x41 -> 263x115
+[libvpx @ 0x564d96c33e40] dimension change! 263x115 -> 263x184
+[libvpx @ 0x564d96c33e40] dimension change! 263x115 -> 263x184
+[libvpx @ 0x564d96c33e40] dimension change! 263x184 -> 263x245
+[libvpx @ 0x564d96c33e40] dimension change! 263x184 -> 263x245
+[libvpx @ 0x564d96c33e40] dimension change! 263x245 -> 261x294
+[libvpx @ 0x564d96c33e40] dimension change! 263x245 -> 261x294
+[libvpx @ 0x564d96c33e40] dimension change! 261x294 -> 261x331
+[libvpx @ 0x564d96c33e40] dimension change! 261x294 -> 261x331
+[libvpx @ 0x564d96c33e40] dimension change! 261x331 -> 261x353
+[libvpx @ 0x564d96c33e40] dimension change! 261x331 -> 261x353
+[libvpx @ 0x564d96c33e40] dimension change! 261x353 -> 255x359
+[libvpx @ 0x564d96c33e40] dimension change! 261x353 -> 255x359
+[libvpx @ 0x564d96c33e40] dimension change! 255x359 -> 255x350
+[libvpx @ 0x564d96c33e40] dimension change! 255x359 -> 255x350
+[libvpx @ 0x564d96c33e40] dimension change! 255x350 -> 255x325
+[libvpx @ 0x564d96c33e40] dimension change! 255x350 -> 255x325
+[libvpx @ 0x564d96c33e40] dimension change! 255x325 -> 259x285
+[libvpx @ 0x564d96c33e40] dimension change! 255x325 -> 259x285
+[libvpx @ 0x564d96c33e40] dimension change! 259x285 -> 259x233
+[libvpx @ 0x564d96c33e40] dimension change! 259x285 -> 259x233
+[libvpx @ 0x564d96c33e40] dimension change! 259x233 -> 259x170
+[libvpx @ 0x564d96c33e40] dimension change! 259x233 -> 259x170
+[libvpx @ 0x564d96c33e40] dimension change! 259x170 -> 246x100
+[libvpx @ 0x564d96c33e40] dimension change! 259x170 -> 246x100
+[libvpx @ 0x564d96c33e40] dimension change! 246x100 -> 246x26
+[libvpx @ 0x564d96c33e40] dimension change! 246x100 -> 246x26
+[libvpx @ 0x564d96c33e40] dimension change! 246x26 -> 246x49
+[libvpx @ 0x564d96c33e40] dimension change! 246x26 -> 246x49
+[libvpx @ 0x564d96c33e40] dimension change! 246x49 -> 261x122
+[libvpx @ 0x564d96c33e40] dimension change! 246x49 -> 261x122
+[libvpx @ 0x564d96c33e40] dimension change! 261x122 -> 261x191
+[libvpx @ 0x564d96c33e40] dimension change! 261x122 -> 261x191
+[libvpx @ 0x564d96c33e40] dimension change! 261x191 -> 261x250
+[libvpx @ 0x564d96c33e40] dimension change! 261x191 -> 261x250
+[libvpx @ 0x564d96c33e40] dimension change! 261x250 -> 244x299
+[libvpx @ 0x564d96c33e40] dimension change! 261x250 -> 244x299
+[libvpx @ 0x564d96c33e40] dimension change! 244x299 -> 244x334
+[libvpx @ 0x564d96c33e40] dimension change! 244x299 -> 244x334
+frame=   29 fps=0.0 q=-0.0 size=N/A time=00:00:00.93 bitrate=N/A speed=1.84x    frame=   29 fps=0.0 q=-0.0 size=N/A time=00:00:00.93 bitrate=N/A speed=1.84x    [libvpx @ 0x564d96c33e40] dimension change! 244x334 -> 244x354
+[libvpx @ 0x564d96c33e40] dimension change! 244x334 -> 244x354
+[libvpx @ 0x564d96c33e40] dimension change! 244x354 -> 258x359
+[libvpx @ 0x564d96c33e40] dimension change! 244x354 -> 258x359
+[libvpx @ 0x564d96c33e40] dimension change! 258x359 -> 258x348
+[libvpx @ 0x564d96c33e40] dimension change! 258x359 -> 258x348
+[libvpx @ 0x564d96c33e40] dimension change! 258x348 -> 258x321
+[libvpx @ 0x564d96c33e40] dimension change! 258x348 -> 258x321
+[libvpx @ 0x564d96c33e40] dimension change! 258x321 -> 237x280
+[libvpx @ 0x564d96c33e40] dimension change! 258x321 -> 237x280
+[libvpx @ 0x564d96c33e40] dimension change! 237x280 -> 237x227
+[libvpx @ 0x564d96c33e40] dimension change! 237x280 -> 237x227
+[libvpx @ 0x564d96c33e40] dimension change! 237x227 -> 237x164
+[libvpx @ 0x564d96c33e40] dimension change! 237x227 -> 237x164
+[libvpx @ 0x564d96c33e40] dimension change! 237x164 -> 294x93
+[libvpx @ 0x564d96c33e40] dimension change! 237x164 -> 294x93
+[libvpx @ 0x564d96c33e40] dimension change! 294x93 -> 294x18
+[libvpx @ 0x564d96c33e40] dimension change! 294x93 -> 294x18
+[libvpx @ 0x564d96c33e40] dimension change! 294x18 -> 294x57
+[libvpx @ 0x564d96c33e40] dimension change! 294x18 -> 294x57
+[libvpx @ 0x564d96c33e40] dimension change! 294x57 -> 243x130
+[libvpx @ 0x564d96c33e40] dimension change! 294x57 -> 243x130
+[libvpx @ 0x564d96c33e40] dimension change! 243x130 -> 243x197
+[libvpx @ 0x564d96c33e40] dimension change! 243x130 -> 243x197
+[libvpx @ 0x564d96c33e40] dimension change! 243x197 -> 243x256
+[libvpx @ 0x564d96c33e40] dimension change! 243x197 -> 243x256
+[libvpx @ 0x564d96c33e40] dimension change! 243x256 -> 244x303
+[libvpx @ 0x564d96c33e40] dimension change! 243x256 -> 244x303
+[libvpx @ 0x564d96c33e40] dimension change! 244x303 -> 244x337
+[libvpx @ 0x564d96c33e40] dimension change! 244x303 -> 244x337
+[libvpx @ 0x564d96c33e40] dimension change! 244x337 -> 244x356
+[libvpx @ 0x564d96c33e40] dimension change! 244x337 -> 244x356
+[libvpx @ 0x564d96c33e40] dimension change! 244x356 -> 265x359
+[libvpx @ 0x564d96c33e40] dimension change! 244x356 -> 265x359
+[libvpx @ 0x564d96c33e40] dimension change! 265x359 -> 265x346
+[libvpx @ 0x564d96c33e40] dimension change! 265x359 -> 265x346
+[libvpx @ 0x564d96c33e40] dimension change! 265x346 -> 265x318
+[libvpx @ 0x564d96c33e40] dimension change! 265x346 -> 265x318
+[libvpx @ 0x564d96c33e40] dimension change! 265x318 -> 257x275
+[libvpx @ 0x564d96c33e40] dimension change! 265x318 -> 257x275
+[libvpx @ 0x564d96c33e40] dimension change! 257x275 -> 257x221
+[libvpx @ 0x564d96c33e40] dimension change! 257x275 -> 257x221
+[libvpx @ 0x564d96c33e40] dimension change! 257x221 -> 257x157
+[libvpx @ 0x564d96c33e40] dimension change! 257x221 -> 257x157
+[libvpx @ 0x564d96c33e40] dimension change! 257x157 -> 311x85
+[libvpx @ 0x564d96c33e40] dimension change! 257x157 -> 311x85
+[libvpx @ 0x564d96c33e40] dimension change! 311x85 -> 311x10
+[libvpx @ 0x564d96c33e40] dimension change! 311x85 -> 311x10
+[libvpx @ 0x564d96c33e40] dimension change! 311x10 -> 311x64
+[libvpx @ 0x564d96c33e40] dimension change! 311x10 -> 311x64
+[libvpx @ 0x564d96c33e40] dimension change! 311x64 -> 246x137
+[libvpx @ 0x564d96c33e40] dimension change! 311x64 -> 246x137
+[libvpx @ 0x564d96c33e40] dimension change! 246x137 -> 246x204
+[libvpx @ 0x564d96c33e40] dimension change! 246x137 -> 246x204
+[libvpx @ 0x564d96c33e40] dimension change! 246x204 -> 246x261
+[libvpx @ 0x564d96c33e40] dimension change! 246x204 -> 246x261
+frame=   57 fps= 56 q=-0.0 size=N/A time=00:00:01.87 bitrate=N/A speed=1.83x    frame=   57 fps= 56 q=-0.0 size=N/A time=00:00:01.87 bitrate=N/A speed=1.83x    [libvpx @ 0x564d96c33e40] dimension change! 246x261 -> 244x307
+[libvpx @ 0x564d96c33e40] dimension change! 246x261 -> 244x307
+[libvpx @ 0x564d96c33e40] dimension change! 244x307 -> 244x339
+[libvpx @ 0x564d96c33e40] dimension change! 244x307 -> 244x339
+[libvpx @ 0x564d96c33e40] dimension change! 244x339 -> 244x357
+[libvpx @ 0x564d96c33e40] dimension change! 244x339 -> 244x357
+[libvpx @ 0x564d96c33e40] dimension change! 244x357 -> 256x358
+[libvpx @ 0x564d96c33e40] dimension change! 244x357 -> 256x358
+[libvpx @ 0x564d96c33e40] dimension change! 256x358 -> 256x344
+[libvpx @ 0x564d96c33e40] dimension change! 256x358 -> 256x344
+[libvpx @ 0x564d96c33e40] dimension change! 256x344 -> 256x314
+[libvpx @ 0x564d96c33e40] dimension change! 256x344 -> 256x314
+[libvpx @ 0x564d96c33e40] dimension change! 256x314 -> 265x270
+[libvpx @ 0x564d96c33e40] dimension change! 256x314 -> 265x270
+[libvpx @ 0x564d96c33e40] dimension change! 265x270 -> 265x215
+[libvpx @ 0x564d96c33e40] dimension change! 265x270 -> 265x215
+[libvpx @ 0x564d96c33e40] dimension change! 265x215 -> 265x150
+[libvpx @ 0x564d96c33e40] dimension change! 265x215 -> 265x150
+[libvpx @ 0x564d96c33e40] dimension change! 265x150 -> 311x78
+[libvpx @ 0x564d96c33e40] dimension change! 265x150 -> 311x78
+[libvpx @ 0x564d96c33e40] dimension change! 311x78 -> 311x3
+[libvpx @ 0x564d96c33e40] dimension change! 311x78 -> 311x3
+[libvpx @ 0x564d96c33e40] dimension change! 311x3 -> 311x72
+[libvpx @ 0x564d96c33e40] dimension change! 311x3 -> 311x72
+[libvpx @ 0x564d96c33e40] dimension change! 311x72 -> 307x144
+[libvpx @ 0x564d96c33e40] dimension change! 311x72 -> 307x144
+[libvpx @ 0x564d96c33e40] dimension change! 307x144 -> 307x210
+[libvpx @ 0x564d96c33e40] dimension change! 307x144 -> 307x210
+[libvpx @ 0x564d96c33e40] dimension change! 307x210 -> 307x266
+[libvpx @ 0x564d96c33e40] dimension change! 307x210 -> 307x266
+[libvpx @ 0x564d96c33e40] dimension change! 307x266 -> 265x311
+[libvpx @ 0x564d96c33e40] dimension change! 307x266 -> 265x311
+[libvpx @ 0x564d96c33e40] dimension change! 265x311 -> 265x342
+[libvpx @ 0x564d96c33e40] dimension change! 265x311 -> 265x342
+[libvpx @ 0x564d96c33e40] dimension change! 265x342 -> 265x358
+[libvpx @ 0x564d96c33e40] dimension change! 265x342 -> 265x358
+[libvpx @ 0x564d96c33e40] dimension change! 265x358 -> 251x357
+[libvpx @ 0x564d96c33e40] dimension change! 265x358 -> 251x357
+[libvpx @ 0x564d96c33e40] dimension change! 251x357 -> 251x341
+[libvpx @ 0x564d96c33e40] dimension change! 251x357 -> 251x341
+[libvpx @ 0x564d96c33e40] dimension change! 251x341 -> 251x310
+[libvpx @ 0x564d96c33e40] dimension change! 251x341 -> 251x310
+[libvpx @ 0x564d96c33e40] dimension change! 251x310 -> 312x265
+[libvpx @ 0x564d96c33e40] dimension change! 251x310 -> 312x265
+[libvpx @ 0x564d96c33e40] dimension change! 312x265 -> 312x209
+[libvpx @ 0x564d96c33e40] dimension change! 312x265 -> 312x209
+[libvpx @ 0x564d96c33e40] dimension change! 312x209 -> 312x143
+[libvpx @ 0x564d96c33e40] dimension change! 312x209 -> 312x143
+[libvpx @ 0x564d96c33e40] dimension change! 312x143 -> 246x70
+[libvpx @ 0x564d96c33e40] dimension change! 312x143 -> 246x70
+[libvpx @ 0x564d96c33e40] dimension change! 246x70 -> 246x4
+[libvpx @ 0x564d96c33e40] dimension change! 246x70 -> 246x4
+[libvpx @ 0x564d96c33e40] dimension change! 246x4 -> 246x79
+[libvpx @ 0x564d96c33e40] dimension change! 246x4 -> 246x79
+[libvpx @ 0x564d96c33e40] dimension change! 246x79 -> 309x151
+[libvpx @ 0x564d96c33e40] dimension change! 246x79 -> 309x151
+frame=   86 fps= 56 q=-0.0 size=N/A time=00:00:02.81 bitrate=N/A dup=1 drop=0 speed=1.84x    frame=   86 fps= 56 q=-0.0 size=N/A time=00:00:02.81 bitrate=N/A dup=1 drop=0 speed=1.84x    [libvpx @ 0x564d96c33e40] dimension change! 309x151 -> 309x216
+[libvpx @ 0x564d96c33e40] dimension change! 309x151 -> 309x216
+[libvpx @ 0x564d96c33e40] dimension change! 309x216 -> 309x271
+[libvpx @ 0x564d96c33e40] dimension change! 309x216 -> 309x271
+[libvpx @ 0x564d96c33e40] dimension change! 309x271 -> 265x315
+[libvpx @ 0x564d96c33e40] dimension change! 309x271 -> 265x315
+[libvpx @ 0x564d96c33e40] dimension change! 265x315 -> 265x344
+[libvpx @ 0x564d96c33e40] dimension change! 265x315 -> 265x344
+[libvpx @ 0x564d96c33e40] dimension change! 265x344 -> 265x358
+[libvpx @ 0x564d96c33e40] dimension change! 265x344 -> 265x358
+[libvpx @ 0x564d96c33e40] dimension change! 265x358 -> 311x357
+[libvpx @ 0x564d96c33e40] dimension change! 265x358 -> 311x357
+[libvpx @ 0x564d96c33e40] dimension change! 311x357 -> 311x339
+[libvpx @ 0x564d96c33e40] dimension change! 311x357 -> 311x339
+[libvpx @ 0x564d96c33e40] dimension change! 311x339 -> 311x306
+[libvpx @ 0x564d96c33e40] dimension change! 311x339 -> 311x306
+[libvpx @ 0x564d96c33e40] dimension change! 311x306 -> 251x260
+[libvpx @ 0x564d96c33e40] dimension change! 311x306 -> 251x260
+[libvpx @ 0x564d96c33e40] dimension change! 251x260 -> 251x202
+[libvpx @ 0x564d96c33e40] dimension change! 251x260 -> 251x202
+[libvpx @ 0x564d96c33e40] dimension change! 251x202 -> 251x135
+[libvpx @ 0x564d96c33e40] dimension change! 251x202 -> 251x135
+[libvpx @ 0x564d96c33e40] dimension change! 251x135 -> 248x63
+[libvpx @ 0x564d96c33e40] dimension change! 251x135 -> 248x63
+[libvpx @ 0x564d96c33e40] dimension change! 248x63 -> 248x12
+[libvpx @ 0x564d96c33e40] dimension change! 248x63 -> 248x12
+[libvpx @ 0x564d96c33e40] dimension change! 248x12 -> 248x87
+[libvpx @ 0x564d96c33e40] dimension change! 248x12 -> 248x87
+[libvpx @ 0x564d96c33e40] dimension change! 248x87 -> 312x158
+[libvpx @ 0x564d96c33e40] dimension change! 248x87 -> 312x158
+[libvpx @ 0x564d96c33e40] dimension change! 312x158 -> 312x222
+[libvpx @ 0x564d96c33e40] dimension change! 312x158 -> 312x222
+[libvpx @ 0x564d96c33e40] dimension change! 312x222 -> 312x276
+[libvpx @ 0x564d96c33e40] dimension change! 312x222 -> 312x276
+[libvpx @ 0x564d96c33e40] dimension change! 312x276 -> 246x318
+[libvpx @ 0x564d96c33e40] dimension change! 312x276 -> 246x318
+[libvpx @ 0x564d96c33e40] dimension change! 246x318 -> 246x346
+[libvpx @ 0x564d96c33e40] dimension change! 246x318 -> 246x346
+[libvpx @ 0x564d96c33e40] dimension change! 246x346 -> 246x359
+[libvpx @ 0x564d96c33e40] dimension change! 246x346 -> 246x359
+[libvpx @ 0x564d96c33e40] dimension change! 246x359 -> 244x355
+[libvpx @ 0x564d96c33e40] dimension change! 246x359 -> 244x355
+[libvpx @ 0x564d96c33e40] dimension change! 244x355 -> 244x336
+[libvpx @ 0x564d96c33e40] dimension change! 244x355 -> 244x336
+[libvpx @ 0x564d96c33e40] dimension change! 244x336 -> 244x302
+[libvpx @ 0x564d96c33e40] dimension change! 244x336 -> 244x302
+[libvpx @ 0x564d96c33e40] dimension change! 244x302 -> 308x255
+[libvpx @ 0x564d96c33e40] dimension change! 244x302 -> 308x255
+[libvpx @ 0x564d96c33e40] dimension change! 308x255 -> 308x196
+[libvpx @ 0x564d96c33e40] dimension change! 308x255 -> 308x196
+[libvpx @ 0x564d96c33e40] dimension change! 308x196 -> 308x128
+[libvpx @ 0x564d96c33e40] dimension change! 308x196 -> 308x128
+[libvpx @ 0x564d96c33e40] dimension change! 308x128 -> 250x55
+[libvpx @ 0x564d96c33e40] dimension change! 308x128 -> 250x55
+frame=  113 fps= 55 q=-0.0 size=N/A time=00:00:03.72 bitrate=N/A dup=1 drop=0 speed=1.83x    frame=  113 fps= 55 q=-0.0 size=N/A time=00:00:03.72 bitrate=N/A dup=1 drop=0 speed=1.83x    [libvpx @ 0x564d96c33e40] dimension change! 250x55 -> 250x20
+[libvpx @ 0x564d96c33e40] dimension change! 250x55 -> 250x20
+[libvpx @ 0x564d96c33e40] dimension change! 250x20 -> 250x94
+[libvpx @ 0x564d96c33e40] dimension change! 250x20 -> 250x94
+[libvpx @ 0x564d96c33e40] dimension change! 250x94 -> 244x165
+[libvpx @ 0x564d96c33e40] dimension change! 250x94 -> 244x165
+[libvpx @ 0x564d96c33e40] dimension change! 244x165 -> 244x228
+[libvpx @ 0x564d96c33e40] dimension change! 244x165 -> 244x228
+[libvpx @ 0x564d96c33e40] dimension change! 244x228 -> 244x281
+[libvpx @ 0x564d96c33e40] dimension change! 244x228 -> 244x281
+[libvpx @ 0x564d96c33e40] dimension change! 244x281 -> 235x322
+[libvpx @ 0x564d96c33e40] dimension change! 244x281 -> 235x322
+[libvpx @ 0x564d96c33e40] dimension change! 235x322 -> 235x348
+[libvpx @ 0x564d96c33e40] dimension change! 235x322 -> 235x348
+[libvpx @ 0x564d96c33e40] dimension change! 235x348 -> 235x359
+[libvpx @ 0x564d96c33e40] dimension change! 235x348 -> 235x359
+[libvpx @ 0x564d96c33e40] dimension change! 235x359 -> 360x354
+[libvpx @ 0x564d96c33e40] dimension change! 235x359 -> 360x354
+[libvpx @ 0x564d96c33e40] dimension change! 360x354 -> 360x333
+[libvpx @ 0x564d96c33e40] dimension change! 360x354 -> 360x333
+[libvpx @ 0x564d96c33e40] dimension change! 360x333 -> 360x298
+[libvpx @ 0x564d96c33e40] dimension change! 360x333 -> 360x298
+[libvpx @ 0x564d96c33e40] dimension change! 360x298 -> 360x249
+[libvpx @ 0x564d96c33e40] dimension change! 360x298 -> 360x249
+[libvpx @ 0x564d96c33e40] dimension change! 360x249 -> 360x189
+[libvpx @ 0x564d96c33e40] dimension change! 360x249 -> 360x189
+[libvpx @ 0x564d96c33e40] dimension change! 360x189 -> 360x121
+[libvpx @ 0x564d96c33e40] dimension change! 360x189 -> 360x121
+[libvpx @ 0x564d96c33e40] dimension change! 360x121 -> 360x47
+[libvpx @ 0x564d96c33e40] dimension change! 360x121 -> 360x47
+[libvpx @ 0x564d96c33e40] dimension change! 360x47 -> 360x27
+[libvpx @ 0x564d96c33e40] dimension change! 360x47 -> 360x27
+[libvpx @ 0x564d96c33e40] dimension change! 360x27 -> 360x102
+[libvpx @ 0x564d96c33e40] dimension change! 360x27 -> 360x102
+[libvpx @ 0x564d96c33e40] dimension change! 360x102 -> 360x172
+[libvpx @ 0x564d96c33e40] dimension change! 360x102 -> 360x172
+[libvpx @ 0x564d96c33e40] dimension change! 360x172 -> 360x234
+[libvpx @ 0x564d96c33e40] dimension change! 360x172 -> 360x234
+[libvpx @ 0x564d96c33e40] dimension change! 360x234 -> 360x286
+[libvpx @ 0x564d96c33e40] dimension change! 360x234 -> 360x286
+[libvpx @ 0x564d96c33e40] dimension change! 360x286 -> 360x325
+[libvpx @ 0x564d96c33e40] dimension change! 360x286 -> 360x325
+[libvpx @ 0x564d96c33e40] dimension change! 360x325 -> 360x350
+[libvpx @ 0x564d96c33e40] dimension change! 360x325 -> 360x350
+[libvpx @ 0x564d96c33e40] dimension change! 360x350 -> 360x359
+[libvpx @ 0x564d96c33e40] dimension change! 360x350 -> 360x359
+[libvpx @ 0x564d96c33e40] dimension change! 360x359 -> 360x353
+[libvpx @ 0x564d96c33e40] dimension change! 360x359 -> 360x353
+[libvpx @ 0x564d96c33e40] dimension change! 360x353 -> 360x330
+[libvpx @ 0x564d96c33e40] dimension change! 360x353 -> 360x330
+[libvpx @ 0x564d96c33e40] dimension change! 360x330 -> 360x293
+[libvpx @ 0x564d96c33e40] dimension change! 360x330 -> 360x293
+[libvpx @ 0x564d96c33e40] dimension change! 360x293 -> 360x243
+[libvpx @ 0x564d96c33e40] dimension change! 360x293 -> 360x243
+[libvpx @ 0x564d96c33e40] dimension change! 360x243 -> 360x183
+[libvpx @ 0x564d96c33e40] dimension change! 360x243 -> 360x183
+[libvpx @ 0x564d96c33e40] dimension change! 360x183 -> 360x114
+[libvpx @ 0x564d96c33e40] dimension change! 360x183 -> 360x114
+[libvpx @ 0x564d96c33e40] dimension change! 360x114 -> 360x40
+[libvpx @ 0x564d96c33e40] dimension change! 360x114 -> 360x40
+frame=  143 fps= 56 q=-0.0 size=N/A time=00:00:04.73 bitrate=N/A dup=1 drop=0 speed=1.86x    frame=  143 fps= 56 q=-0.0 size=N/A time=00:00:04.73 bitrate=N/A dup=1 drop=0 speed=1.86x    [libvpx @ 0x564d96c33e40] dimension change! 360x40 -> 360x35
+[libvpx @ 0x564d96c33e40] dimension change! 360x40 -> 360x35
+[libvpx @ 0x564d96c33e40] dimension change! 360x35 -> 360x109
+[libvpx @ 0x564d96c33e40] dimension change! 360x35 -> 360x109
+[libvpx @ 0x564d96c33e40] dimension change! 360x109 -> 360x179
+[libvpx @ 0x564d96c33e40] dimension change! 360x109 -> 360x179
+[libvpx @ 0x564d96c33e40] dimension change! 360x179 -> 360x240
+[libvpx @ 0x564d96c33e40] dimension change! 360x179 -> 360x240
+frame=  147 fps= 56 q=-0.0 Lsize=N/A time=00:00:04.93 bitrate=N/A dup=1 drop=0 speed=1.87x    
+video:18438kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=  147 fps= 56 q=-0.0 Lsize=N/A time=00:00:04.93 bitrate=N/A dup=1 drop=0 speed=1.87x    
+video:18438kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

@@ -1,0 +1,5 @@
+points: 500
+category: pwn
+author: nox
+desc:
+	Some bins really do run fast...

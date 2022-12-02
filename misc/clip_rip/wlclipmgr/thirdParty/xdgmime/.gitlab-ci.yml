@@ -1,0 +1,43 @@
+image: fedora:rawhide
+
+variables:
+  DEPENDENCIES: gcc
+                gcc-c++
+                glibc-devel
+                make
+                libxml2-devel
+                glib2-devel
+                gettext
+                git
+                itstool
+                xmlto
+                findutils
+                gettext-devel
+                meson
+
+build:autotools:
+  before_script:
+    - dnf update -y --nogpgcheck
+    - dnf install -y --nogpgcheck $DEPENDENCIES
+  script:
+    - make
+
+    # Compile shared-mime-info
+    - git clone https://gitlab.freedesktop.org/xdg/shared-mime-info.git
+    - cd shared-mime-info
+    - meson _build -Dxdgmime-path=$PWD/../
+    - ninja -C _build test
+
+build:meson:
+  before_script:
+    - dnf update -y --nogpgcheck
+    - dnf install -y --nogpgcheck $DEPENDENCIES
+  script:
+    - meson _build
+    - ninja -C _build
+
+    # Compile shared-mime-info
+    - git clone https://gitlab.freedesktop.org/xdg/shared-mime-info.git
+    - cd shared-mime-info
+    - meson _build -Dxdgmime-path=$PWD/../_build/
+    - ninja -C _build test

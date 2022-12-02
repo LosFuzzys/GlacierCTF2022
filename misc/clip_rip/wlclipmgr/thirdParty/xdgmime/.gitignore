@@ -1,0 +1,4 @@
+src/print-mime-data
+src/test-mime
+src/test-mime-data
+src/*.o

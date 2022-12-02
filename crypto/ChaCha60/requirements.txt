@@ -1,0 +1,7 @@
+Cython==0.29.32
+humanize==4.4.0
+numpy==1.21.5
+pycryptodome==3.15.0
+sage==0.0.0
+sagemath_standard==9.5
+tqdm==4.64.1

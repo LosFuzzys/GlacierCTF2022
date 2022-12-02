@@ -1,0 +1,74 @@
+[
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmime.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmime.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmime.c.o -c ../thirdParty/xdgmime/src/xdgmime.c",
+    "file": "../thirdParty/xdgmime/src/xdgmime.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmime.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeglob.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeglob.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeglob.c.o -c ../thirdParty/xdgmime/src/xdgmimeglob.c",
+    "file": "../thirdParty/xdgmime/src/xdgmimeglob.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeglob.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeint.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeint.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeint.c.o -c ../thirdParty/xdgmime/src/xdgmimeint.c",
+    "file": "../thirdParty/xdgmime/src/xdgmimeint.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeint.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimemagic.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimemagic.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimemagic.c.o -c ../thirdParty/xdgmime/src/xdgmimemagic.c",
+    "file": "../thirdParty/xdgmime/src/xdgmimemagic.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimemagic.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimealias.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimealias.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimealias.c.o -c ../thirdParty/xdgmime/src/xdgmimealias.c",
+    "file": "../thirdParty/xdgmime/src/xdgmimealias.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimealias.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeparent.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeparent.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeparent.c.o -c ../thirdParty/xdgmime/src/xdgmimeparent.c",
+    "file": "../thirdParty/xdgmime/src/xdgmimeparent.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeparent.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimecache.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimecache.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimecache.c.o -c ../thirdParty/xdgmime/src/xdgmimecache.c",
+    "file": "../thirdParty/xdgmime/src/xdgmimecache.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimecache.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "cc -IthirdParty/libxdgmime.a.p -IthirdParty -I../thirdParty -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O0 -g -fPIC -D_POSIX_C_SOURCE=200809L -DHAVE_MMAP -Wmissing-prototypes -Wno-sign-compare -MD -MQ thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeicon.c.o -MF thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeicon.c.o.d -o thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeicon.c.o -c ../thirdParty/xdgmime/src/xdgmimeicon.c",
+    "file": "../thirdParty/xdgmime/src/xdgmimeicon.c",
+    "output": "thirdParty/libxdgmime.a.p/xdgmime_src_xdgmimeicon.c.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "c++ -Iwlclipmgr.p -I. -I.. -I/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++20 -O0 -g -MD -MQ wlclipmgr.p/main.cpp.o -MF wlclipmgr.p/main.cpp.o.d -o wlclipmgr.p/main.cpp.o -c ../main.cpp",
+    "file": "../main.cpp",
+    "output": "wlclipmgr.p/main.cpp.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "c++ -Iwlclipmgr.p -I. -I.. -I/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++20 -O0 -g -MD -MQ wlclipmgr.p/clipboard.cpp.o -MF wlclipmgr.p/clipboard.cpp.o.d -o wlclipmgr.p/clipboard.cpp.o -c ../clipboard.cpp",
+    "file": "../clipboard.cpp",
+    "output": "wlclipmgr.p/clipboard.cpp.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "c++ -Iwlclipmgr.p -I. -I.. -I/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++20 -O0 -g -MD -MQ wlclipmgr.p/procblock.cpp.o -MF wlclipmgr.p/procblock.cpp.o.d -o wlclipmgr.p/procblock.cpp.o -c ../procblock.cpp",
+    "file": "../procblock.cpp",
+    "output": "wlclipmgr.p/procblock.cpp.o"
+  },
+  {
+    "directory": "/home/max/.config/scripts/wlclipmgr/build",
+    "command": "c++ -Iwlclipmgr.p -I. -I.. -I/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++20 -O0 -g -MD -MQ wlclipmgr.p/gpgmeagent.cpp.o -MF wlclipmgr.p/gpgmeagent.cpp.o.d -o wlclipmgr.p/gpgmeagent.cpp.o -c ../gpgmeagent.cpp",
+    "file": "../gpgmeagent.cpp",
+    "output": "wlclipmgr.p/gpgmeagent.cpp.o"
+  }
+]

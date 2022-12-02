@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    build:
+      context: web
+    depends_on:
+      - mongo
+    ports:
+      - "8080:8080"
+    restart: always # needed because node stops when db is not available yet
+    environment:
+      - COOKIE_SECRET=${COOKIE_SECRET}
+      - FLAG2=${FLAG2}
+      - VOUCHER_CODE=${VOUCHER_CODE}
+      - DB_URL=mongodb://mongo:27017/graphql
+  mongo:
+    image: mongo

@@ -1,0 +1,7 @@
+%no-protection
+Key-Type: default
+Subkey-Type: default
+Name-Real: Chad Fuzzy
+Name-Email: chad@foo.bar
+Expire-Date: 0
+Passphrase: asdf

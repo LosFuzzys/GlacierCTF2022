@@ -1,0 +1,24 @@
+name: "Strange Letters"
+author: "J4X"
+category: "Crypto"
+
+description: Mm friend is annoying me again. He sent me another strange picture and wants me to find it funny. He thinks it's cool making fun of me, just becuase i became a monk after school. (Flag-Format \"Glacier{...}\")
+
+type: "dynamic"
+value: 500
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+
+files:
+  - "chall/challenge.png"
+flags:
+  - "Glacier{MoNk5_t0g3Ther_5tr0nG}"
+tags:
+  - "misc"
+
+state: "visible"
+version: "1.0"
+
+ops:
